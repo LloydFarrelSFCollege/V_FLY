@@ -13,7 +13,7 @@ local flying = false
 local speed = 100
 
 -- Ruta al hitbox del jugador
-local Hitbox = workspace.placeFolders.entityManifestCollection.peladindebreizer.hitbox
+local Hitbox = workspace.placeFolders.entityManifestCollection[player.Name].hitbox
 local hitboxVelocity = Hitbox:WaitForChild("hitboxVelocity")
 
 -- Bypass oficial del sistema
